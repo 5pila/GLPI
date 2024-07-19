@@ -1,0 +1,31 @@
+body.welcome-anonymous .glpi-logo {
+    --logo: url("/pics/logos/SEU-LOGO-AQUI.png");
+    content: var(--logo);
+    height: 190px;
+}
+
+.page .glpi-logo {
+    background: url("/pics/logos/SEU-LOGO-AQUI.png") no-repeat;
+    background-size: 50px;
+}
+
+body.welcome-anonymous .card-body {
+    background-color: #e2e7ed;
+}
+
+.btn:hover {
+    background-color: #5a7b9d;
+    border-color: #4a6a8d;
+}
+
+.header {
+    background-color: #4a6a8d;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn, .card-body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
