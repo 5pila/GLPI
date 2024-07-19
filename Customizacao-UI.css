@@ -9,6 +9,8 @@ body.welcome-anonymous .glpi-logo {
     background-size: 50px;
 }
 
+/* Abaixo são apenas algumas personalizações adicionais */
+
 body.welcome-anonymous .card-body {
     background-color: #e2e7ed;
 }
